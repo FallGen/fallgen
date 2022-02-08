@@ -1,0 +1,22 @@
+html 
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	margin: 0;
+}
+/* заглавный текст */
+h1 {
+	font-family: 'Rowdies';
+	/* font-family: 'Roboto'; */
+	font-size: 72px;
+	margin: 0px;
+	
+}
+/* вспомогательный текст */
+h2 {
+	font-size: 100px;
+	margin: 2px;
+	font-weight: 500;
+}
