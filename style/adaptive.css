@@ -6,12 +6,16 @@
 
 
 }
-
+/* мой телефон */
 @media only screen and (max-width: 1200px) {
 
+h1 {
+	font-size: 42px;
+}
 
 }
 
+/* мой ноутбук */
 @media only screen and (max-width: 1500px) {
 	
 }
