@@ -4,7 +4,9 @@
 
 @media only screen and (max-width: 768px) {
 
-
+h1 {
+	font-size: 42px;
+}
 }
 /* мой телефон */
 @media only screen and (max-width: 1200px) {
