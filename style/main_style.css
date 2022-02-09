@@ -14,7 +14,6 @@ h1 {
 	font-size: 82px;
 	margin: 0px;
 	color: white;
-	
 }
 
 /* вспомогательный текст */
@@ -35,44 +34,40 @@ h3 {
 	font-weight: 300;
 }
 
-.navbar {
-	overflow:hidden;
+.header {
 	background: black;
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding: 10px;
-	
 	z-index: 5;
 }
 
 .nav {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-
+	padding: 10px;
 }
 
-.nav_options {
+.nav_icon {
+	/* display: block; */
+	/* justify-content: space-between; */
+	/* align-items: right; */
+	/* padding: 10px; */
+	margin:auto;
+	text-align: right;
+}
+
+
+.navbar {
 	display: flex;
-	margin: 10px;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .navbar a {
 	color: white;
 	display: block;
-	text-align: center;
 	text-decoration: none;
-	padding: 10px;
-}
-
-.logo {
-	margin: 0 100px 0 10px;
-}
-
-
-.content {
-  padding: 16px;
+	padding-left: 15px;
+	font-size: 22px;
 }
 
 .sticky {
@@ -81,6 +76,6 @@ h3 {
 	width: 100%;
 }
 
-.sticky + .content {
-	padding-top: 160px;
+.sticky + .main_block {
+	padding-top: 69px;
 }

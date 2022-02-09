@@ -1,20 +1,25 @@
 /* intro container */
 .main_container {
-	width: 100%;
 	max-width: 1024px;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	/* margin: 0 auto; */
+	margin: auto;
 }
 
-.temp_container {
-	height: 250vh;
-	max-width: 1024px;
+.empty_container {
+	height: 100vh;
 	width: 100%;
+	background: black;
+	text-align: center;
 }
 
-.block_center {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+.navbar_container {
+	max-width: 1524px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+.quote_container {
+	max-width: 512px;
+	margin: auto;
 }
