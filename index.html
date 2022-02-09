@@ -6,8 +6,10 @@
 		<!-- подключение css файла -->
 		<link rel = "stylesheet" href = "style/main_style.css">
 		<link rel = "stylesheet" href = "style/adaptive.css">
+		<link rel = "stylesheet" href = "blocks/content_block.css">
 		<link rel = "stylesheet" href = "blocks/container.css">
-		<link rel = "stylesheet" href = "blocks/blocks.css">
+		<link rel = "stylesheet" href = "blocks/intro.css">
+		<!-- <link rel = "stylesheet" href = "blocks/intro.css"> -->
 		<!-- подключение шрифтов -->
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
@@ -19,23 +21,80 @@
 
 	<body>
 	
-	<div class = "intro">
-		<div class = "video">
-			<video class = "video_media" src = "video/video_fallgen.mp4" autoplay muted loop> </video>
-		</div>
-		<div class = "intro_content">
-			<div class = "container"> 
-				<h1 class = "intro_title"> FallGen Editor </h1>
+	<div class="video-bg">
+	   <video src="video/video_fallgen.mp4" type="video/mp4" autoplay muted loop></video>
+	   <div class="effects"></div>
+	   <div class="video-bg_content">
+		  <h1>FallGen Editor</h1>
+	   </div>
+	   <div class="video-bg_pointer">
+	   <img src = "image/pointer.svg" width = "7%" height = "7%" > </img>
+	    </div>
+	</div>
+	
+	<div id = "navbar" class = "navbar">
+		<div class = "block_center">
+			<div class = "logo">
+				<h2 class = "logo_title"> FallGen </h1>
+				<h3 class = "logo_title"> Гусельников Виталий Александрович</h1>
+			</div>
+			<div class = "nav_options">
+				<div class = "nav">
+					<a href = "#" > Обо мне </a>
+					<a href = "#" > Навыки </a>
+					<a href = "#" > Портфолио </a>
+					<a href = "#" > Услуги </a>
+					<a href = "#" > Резюме </a>
+					<a href = "#" > Контакты </a>
+				</div>
 			</div>
 		</div>
-			<div class = "intro_pointer"> 
-		<div class = "container"> 
-			<img class = "pointer" src = "image/pointer.png" width = "7.5%" height = "45%" >
+	</div>
+
+	<div class = "block1">
+		<!-- <div class = "block_content"> -->
+				<!-- <h2 class = "logo_title"> контент </h2> -->
+		<!-- </div> -->
+		
+		    <div class="parallax">
+				<div class="parallax-content">
+					<h1>This is parallax</h1>
+				</div>
+				<div class="mask"></div>
+			</div>
+
+		
+		<div class = "block_content">
+				<h2 class = "logo_title"> контент </h2>
+
 		</div>
 	</div>
-	</div>
-		
 	
+	
+		<!-- <div class = "intro"> -->
+		<!-- <div class = "video"> -->
+			<!-- <video class = "video_media" src = "video/video_fallgen.mp4" autoplay muted loop> </video> -->
+		<!-- </div> -->
+		<!-- <div class = "intro_content"> -->
+			<!-- <div class = "container">  -->
+				<!-- <h1 class = "intro_title"> FallGen Editor </h1> -->
+			<!-- </div> -->
+		<!-- </div> -->
+			<!-- <div class = "intro_pointer">  -->
+		<!-- <div class = "container">  -->
+			<!-- <img class = "pointer" src = "image/pointer.svg" width = "7.5%" height = "45%" > -->
+		<!-- </div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+
+	<div class = "temp_container"></div>
+
+
+
+	
+		<script src="js/menybar.js"></script>
+
+
 	</body>
 
 </html>

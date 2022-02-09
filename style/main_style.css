@@ -5,19 +5,82 @@ html
 body
 {
 	margin: 0;
+	padding: 0;
 }
+
 /* заглавный текст */
 h1 {
 	font-family: 'Rowdies';
-	/* font-family: 'Roboto'; */
 	font-size: 82px;
 	margin: 0px;
 	color: white;
 	
 }
+
 /* вспомогательный текст */
 h2 {
-	font-size: 100px;
-	margin: 2px;
-	font-weight: 500;
+	font-family: 'Rowdies';
+	color: white;
+	margin: 0px;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+/* вспомогательный текст */
+h3 {
+	font-family: 'Roboto';
+	color: white;
+	margin: 0px;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.navbar {
+	overflow:hidden;
+	background: black;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+	
+	z-index: 5;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+
+}
+
+.nav_options {
+	display: flex;
+	margin: 10px;
+}
+
+.navbar a {
+	color: white;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.logo {
+	margin: 0 100px 0 10px;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 160px;
 }

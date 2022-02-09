@@ -1,0 +1,34 @@
+.parallax {
+    background-image: url(../image/bg_youtube.png);
+    background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.parallax h1 {
+    color: #ffffff;
+    font-size: 70px;
+}
+.parallax .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.block1 h2 {
+	color: black;
+}
+
+.block_content {
+	padding-bottom: 50px;
+	    z-index: 3;
+
+}
