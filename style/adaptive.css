@@ -1,8 +1,9 @@
 @media only screen and (max-width: 480px) {
+	
 }
 /* iphone x */
-@media only screen and (max-width: 768px) {
-}
+/* @media only screen and (max-width: 768px) { */
+/* } */
 /* мой телефон */
 @media only screen and (min-width: 1000px) {
 	
@@ -58,7 +59,14 @@
 .video-bg_pointer {
 		margin-bottom: 250px;
 }
+
+.logo h3 {
+	font-size: 16px;
+}
 	
+	.sticky + .main_block {
+	padding-top: 64px;
+}
 }
 @media only screen and (max-width: 1200px) {
 }

@@ -28,8 +28,8 @@
 
 /* laptope */
 .parallax-photo-laptope {
-	max-width: 90%;
-	max-height: 90%;
+	max-width: 70%;
+	max-height: 70%;
 	z-index: 3;
 	box-shadow: -7px -7px 15px;
 	position: relative;
