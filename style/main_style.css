@@ -73,8 +73,14 @@ h3 {
 	color: white;
 	display: block;
 	text-decoration: none;
-	padding-left: 15px;
+	padding-left: 7px;
+	padding-right: 7px;
 	font-size: 22px;
+}
+
+.navbar a:hover {
+	color: black;
+	background-color: #ddd
 }
 
 .sticky {
@@ -85,4 +91,59 @@ h3 {
 
 .sticky + .main_block {
 	padding-top: 69px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	background-color: transparent;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+	right: 0px;
+	text-align: right;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd
+	}
+
+.show {display:block;}
+
+.name_block {
+	width: 100%;
+	background: black;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin: auto;
+}
+
+.name_block h3 {
+	font-size: 20px;
+	color: white;
 }

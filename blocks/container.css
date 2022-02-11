@@ -10,6 +10,10 @@
 	background: black;
 	text-align: center;
 }
+.empty_container h1 {
+	padding-top: 50px;
+	font-size: 32px;
+}
 
 .navbar_container {
 	max-width: 1524px;
@@ -23,3 +27,4 @@
 	max-width: 512px;
 	margin: auto;
 }
+
