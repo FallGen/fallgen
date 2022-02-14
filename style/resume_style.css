@@ -1,0 +1,47 @@
+body
+{
+	margin: 0;
+	padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+	color: white;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+.contacts a {
+	text-decoration: none;
+	color: white;
+}
+
+.right_block h1 {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 20px;
+
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.right_block h1, .right_block h2, .right_block h3 {
+	color: black;
+}
+
+.right_block h2 {
+	font-size: 14px;
+	/* padding: 3px; */
+}
+.block_info h2 {
+	font-size: 14px;
+}
+
+.gorod h3 {
+	color: green;
+	padding-left: 5px;
+}
+
+.left_block .razdelenie {
+	background: white;
+}
