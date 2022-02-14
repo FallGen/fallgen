@@ -9,7 +9,6 @@
 	background: #1E2939;
 	max-width: 324px;
 	padding: 20px;
-	/* position: relative; */
 }
 
 .right_block {
@@ -84,8 +83,6 @@
 
 .god {
 	display: block;
-	/* align-items: center; */
-	/* max-width: 100px; */
 }
 
 .info {
@@ -124,11 +121,8 @@
 }
 
 .btn:hover {
-	background: white;
-}
-
-.btn h3:hover {
-	color: #1E2939;
+	background: #41587a;
+	cursor:pointer;
 }
 
 .btn h3 {
